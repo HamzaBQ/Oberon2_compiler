@@ -1,0 +1,19 @@
+MODULE TEST2;
+
+VAR
+i: INTEGER;
+sum : INTEGER;
+limit : INTEGER;
+
+BEGIN
+
+i:=1;
+sum:=0;
+limit:=10;
+
+WHILE i<=limit DO
+	sum:=sum+i;
+	i:=i+1
+END
+
+END TEST2.

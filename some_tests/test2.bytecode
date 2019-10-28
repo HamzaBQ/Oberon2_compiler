@@ -1,0 +1,19 @@
+0  PUSH 1
+1  STORE i
+2  PUSH 0
+3  STORE sum
+4  PUSH 10
+5  STORE limit
+6  LOAD i
+7  LOAD limit
+8  SUB
+-1  JGZ 18
+9  LOAD sum
+10  LOAD i
+11  ADD
+12  STORE sum
+13  LOAD i
+14  PUSH 1
+15  ADD
+16  STORE i
+17  JMP 6

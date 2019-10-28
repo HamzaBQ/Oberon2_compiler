@@ -1,0 +1,24 @@
+MODULE TEST3;
+
+CONST 
+	c=15;
+VAR 
+i : INTEGER;
+i : INTEGER;
+e: REAL;
+
+BEGIN
+
+i:= 18+ 2.5*4.2;
+e:=18;
+var := 25;
+
+IF i+2 THEN
+	i:=4
+END;
+
+WHILE i<=5 DO
+	e:=18.2
+END
+
+END TEST3.

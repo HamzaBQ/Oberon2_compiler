@@ -1,0 +1,34 @@
+0  PUSH 0
+1  STORE i
+2  PUSH 0
+3  STORE j
+4  PUSH 10
+5  STORE limit
+6  LOAD i
+7  LOAD limit
+8  SUB
+-1  JGZ 32
+9  LOAD j
+10  LOAD limit
+11  SUB
+-1  JGZ 27
+12  LOAD expr
+13  LOAD i
+14  LOAD i
+15  MUL
+16  LOAD j
+17  LOAD j
+18  MUL
+19  ADD
+20  ADD
+21  STORE expr
+22  LOAD j
+23  PUSH 1
+24  ADD
+25  STORE j
+26  JMP 9
+27  LOAD i
+28  PUSH 1
+29  ADD
+30  STORE i
+31  JMP 6

@@ -1,0 +1,14 @@
+MODULE TEST1;
+
+ 
+	
+VAR 
+	r : REAL;
+	s : REAL;
+	PI : REAL;
+BEGIN
+
+	PI:=22.0/7.0;
+	r:=1.0;
+	s:=PI*PI*r
+END TEST1.

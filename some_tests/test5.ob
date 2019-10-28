@@ -1,0 +1,15 @@
+MODULE TEST5;
+
+VAR 
+i : INTEGER;
+even : BOOLEAN;
+
+BEGIN
+
+i:=16;
+even:=FALSE;
+IF (i/2)*2=i THEN
+	even:=TRUE
+END
+
+END TEST5.

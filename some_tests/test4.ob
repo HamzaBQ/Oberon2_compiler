@@ -1,0 +1,27 @@
+MODULE TEST4;
+
+VAR
+
+i: INTEGER;
+j: INTEGER;
+expr: INTEGER;
+limit: INTEGER;
+
+BEGIN
+
+i:=0;
+j:=0;
+limit:=10;
+
+WHILE i<=limit DO
+	
+	WHILE j<=limit DO
+
+		expr:=expr+i*i+j*j;
+		j:=j+1
+
+	END;
+	i:=i+1
+END
+
+END TEST4.

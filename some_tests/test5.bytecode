@@ -1,0 +1,14 @@
+0  PUSH 16
+1  STORE i
+2  PUSH 0
+3  STORE even
+4  LOAD i
+5  PUSH 2
+6  DIV
+7  PUSH 2
+8  MUL
+9  LOAD i
+10  SUB
+-1  JNZ 13
+11  PUSH 1
+12  STORE even
